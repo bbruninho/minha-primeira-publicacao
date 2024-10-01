@@ -1,0 +1,32 @@
+body {  
+    display: flex;  
+    font-family: Arial, sans-serif;  
+}  
+
+.content {  
+    flex: 1;  
+    padding: 20px;  
+    border-right: 2px solid #ccc; /* Barra de separação */  
+}  
+
+.sidebar {  
+    width: 600px;  
+    background-color: #f4f4f4;  
+    padding: 20px;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+header {  
+    font-size: 1.5em;  
+    margin-bottom: 10px;  
+}  
+
+h1 {  
+    font-size: 1.2em;  
+    margin-top: 0;  
+}  
+
+img {  
+    max-width: 100%;  
+    height: auto;  
+}
